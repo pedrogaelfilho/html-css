@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Inteirativo</title>
+    <style>
+        body{
+            background-color:rgba(43, 43, 144, 0.564) ;
+           
+         
+        }
+        main{
+            background-color:aliceblue;
+            text-align: justify;
+            border-radius: 0.4em;
+           padding: 5px;
+          
+           box-shadow:  5px 5px  5px rgba(28, 21, 21, 0.897);  
+        }
+        h1,h3{
+          text-shadow: 0.5px 0px 0.9px  rgb(0, 0, 0);  
+        }
+        p{
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Quiz inteirativo</h1><hr><hr>
+        <h3><q><strong><em>Responda este Quiz inteirativo e se divirta</h3></em></strong></q> 
+        <p><em>Escolha as opções com atenção em base no seu conhecimento,e Veja se consegue responder todas as perguntas</em>.</p>
+        <p><em>Qualquer dúvida consulte nossos colaboradores  <strong><abbr title="*****">HTML</abbr> & <abbr title="*****">CSS</abbr></strong></em>.</p><hr>
+    </header>
+    <main>
+        <section>
+            <h2>Pergunta 1: Quais dessas opções é considerada linguagem de programação?</h2>
+            <form >
+                <input type="checkbox" value="HTML" id="p1a" name="pergunta1">
+                <label for="p1a">HTML</label><br>
+                <input type="checkbox" value="JavaScript" id="p1b" name="pergunta1">
+                <label for="p1b">JavaScript</label><br>
+                <input type="checkbox" value="CSS" id="p1c" name="pergunta1">
+                <label for="p1c">CSS</label><br>
+                <input type="checkbox" value="Ruby" id="p1d" name="pergunta1">
+                <label for="p1d">Ruby</label>
+            </form>
+        </section>
+        <section>
+            <h2>Pergunta 2:Quais desses input usamos na instruturação de marcação de texto? </h2>
+            <form>
+                <input type="radio" value="Type" id="p1a" name="pergunta1">
+                <label for="p1a">Type</label><br>
+                <input type="radio" value="Java" id="p1b" name="pergunta1">
+                <label for="p1b">Java</label><br>
+                <input type="radio" value="Radio" id="p1c" name="pergunta1">
+                <label for="p1c">Radio</label><br>
+                <input type="radio" value="HTML" id="p1d" name="pergunta1">
+                <label for="p1d">HTML</label>
+            </form>
+        </section>
+        <section>
+            <h2>Pergunta 3: Em que ano a HTML surgiu?</h2>
+            <form>
+                <input type="date" id="p1" name="pergunta1">
+            </form>
+        </section>
+        <section>
+            <h2>Pergunta 4: Escreva um exemplo de senha forte. </h2>
+            <form>
+                <input type="password" id="p4" name="pergunta4" placeholder="Digite sua senha aqui...">
+            </form>
+        </section>
+        <section>
+            <h2>Pergunta 5:Na URL"https//:www.google.com" o trecho "google.com" é o _____?</h2>
+            <input type="text" id="p5" name="pergunta5" placeholder="Digite aqui...">
+        </section>
+        <section>
+            <h2>Pergunta 6:Faça um upload de um arquivo contendo códigos HTML.</h2>
+            <form>
+                <input type="file" id="p6" name="pergunta6">
+            </form>
+        </section>
+        <section>
+            <h2>Pergunta 7: Selecione o atributo do input que define o seu tipo:</h2>
+            <form>
+                <select name="pergunta7" id="p7">
+                    <option value="type">type</option>
+                    <option value="id">id</option>
+                    <option value="HTML">HTML</option>
+                </select>
+            </form>
+        </section>
+        <section>
+            <h2>Pergunta 8:Qual o significado da foto a baixo?</h2>
+           
+            
+            <img src="c:\Users\crist\OneDrive\Imagens\Familia Oliveira\Fotos de GAEL\gael.jpg" width="200" alt="foto">
+            <figcaption><q><em>Foto de criança feliz</em></q> &copy; !!</figcaption><br>
+            <input type="text" id="p8" name="pergunta8" placeholder="Digite aqui...">
+            <h2>Assista também o nosso VIDEO e fique mais por dentro do nosso Trabalho.</h2>
+             <video src="c:\Users\crist\OneDrive\Imagens\Familia Oliveira\Fotos de GAEL\VID-20240524-WA0008.mp4"  width="300" controls></video>
+        </section>
+       <br>
+        <section>
+            <hr><hr>
+            <h2>Tabela de pontuação</h2>
+            <table border="5">
+                <thead>
+                    <tr>
+                        <th>Pontuação</th>
+                        <th>Avaliação</th>
+                    </tr>
+                </thead>
+               <tbody>
+                  <tr>
+                    <td>0-2</td>
+                    <td>Estude um pouco mais</td>
+                  </tr>
+                  <tr>
+                    <td>3-4</td>
+                    <td>Ainda dâ pra melhorar</td>
+                  </tr>
+                  <tr>
+                    <td>5-6</td>
+                    <td>Muito bom</td>
+                  </tr>
+                  <tr>
+                    <td>7-8</td>
+                    <td>Parabéns nota maxima</td>
+                  </tr>
+               </tbody>
+               <footer>
+                <tr>
+                    <td colspan="2">Parabéns,você esta evoluindo !!</td>
+                </tr>
+               </footer>
+            </table>
+        </section>
+        <section>
+            <h2>Verifique suas respostas</h2>
+                <details>
+                    <summary>Veja as Respostas aqui</summary>
+                    <ol>
+                        <li>****</li>
+                        <li>****</li>
+                        <li>****</li>
+                        <li>****</li>
+                        <li>****</li>
+                        <li>****</li>
+                    </ol>
+                </details>
+        </section>
+        <section>
+            <h2>Nos dê seu Feedback</h2>
+            <form>
+                <fieldset>
+                    <legend>Informaçõs de Contato</legend>
+                    <label for="comentário">Comentário</label><br>
+                    <textarea name="comentario" id="comentario " rows="5" cols="50" placeholder="comentário... "></textarea>
+                    <br>
+                    <label for="nome">Nome</label><br>
+                    <input type="text" id="name" name="nome" placeholder="Digite seu nome...">
+                    <br>
+                    <label for="email">email</label><br>
+                    <input type="email"id="email" name="email" placeholder="email..."><br>
+                    <br>
+                    <button onclick="alert ('FEEDBACK ENVIADO')">Envie o Feedback</button>
+            </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p><em>&copy;  Quiz de programadores, todos os direitos reservados</em>.</p>
+        <p>Para conhecer outros quizzes <em><q><a href="google.com">Clique aqui</a></q></em></p>
+    </footer>
+</body>
+</html>
