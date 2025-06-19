@@ -1,0 +1,178 @@
+@charset "UTF-8";
+
+
+   
+
+@import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Pinyon+Script&display=swap');
+
+
+
+ body {
+       background-image: linear-gradient(90deg,#0a0a0ab5,#BF946F,#d4a882,#A65221,#0000009a);
+    
+     
+       font-family: "Water Brush", cursive;
+    text-align: justify;
+       
+ 
+ 
+}
+.logo {
+    text-align: center;
+}
+ 
+ h1 {
+   font-family: "Water Brush" Helvetica, sans-serif;
+   font-size: 5em;
+   text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.521);
+   cursor: pointer;
+ 
+  padding: 20px;
+  border-radius: 10px;
+ }
+#principal:hover {
+    color: rgb(87, 13, 13);
+}
+
+main img {
+    width: 60px;
+    height: 60px;
+}
+
+ h2 {
+    font-size: 3em;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.405);
+    cursor: pointer;
+    
+ }
+ h2:hover {
+  text-decoration: underline;
+ }
+header img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: solid 10px black;
+    box-shadow: 5px 4px 2px  rgba(0, 0, 0, 0.374);
+    cursor: pointer;
+    
+ }
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 40px;
+    background-color: black;
+    border-radius: 10px;   
+}
+
+
+a {
+    text-decoration: none;
+    color:white;
+   
+   
+}
+a:hover {
+    color: white;
+}
+main {
+  
+   text-align: justify;
+   
+   min-width: 396px;
+   max-width: 800px;
+  
+}
+.toalha img {
+    width: 400px;
+    height: 410px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.366);
+    border-radius: 30px;
+    cursor: pointer;
+}
+.dona:hover {
+    color: blue;
+}
+
+.inteiro {
+    margin: 0px 50px;
+   
+    
+}
+
+div#p1.meio {
+
+   
+}
+#text {
+    text-align: center;
+}
+
+
+.center {
+ font-family: "Water Brush" Helvetica, sans-serif;
+ font-weight: bolder;
+ font-size: 2em;
+ text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.475);
+ 
+  
+}
+p {
+      font-family: "Pinyon Script", cursive;
+    font-size: 2em;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.273);
+    text-indent: 20px;
+    background-color: rgba(255, 255, 255, 0.025);
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+.quarto img {
+    width: 410px;
+    height: 500px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.459);
+    margin: auto;
+    cursor: pointer;
+}
+
+footer  {
+   text-align:center;
+   display: flex;
+   justify-items: auto;
+  justify-content: center;
+}
+footer img {
+  
+    width: 40px;
+    height: 40px;
+}
+ footer a {
+   margin: 10px;
+  text-align: center;
+ }
+ footer p {
+    margin: 5px;
+    color: black;
+ }
+ footer p:hover {
+    color: white;
+ }
+ .final {
+    text-align: center;
+    font-weight: normal;
+    font-size: small;
+    font-weight: bolder;
+    font-size: 1.3em;
+   
+ }
+.endereço {
+    color: blue;
+    font-size: 1.3em;
+}
